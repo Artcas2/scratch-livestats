@@ -33,7 +33,8 @@ while True:
 	user.update()
 	project.update()
 	
-	cloud.set_var("FOLLOWERS COUNT", user.follower_count())
+	follower_count = user.follower_count()
+	cloud.set_var("FOLLOWERS COUNT", follower_count)
 	
 	last_followers_list = user.followers(limit=6, offset=0)
 	last_followers = ""
