@@ -7,7 +7,7 @@ pip install -U scratchattach
 ```
 
 ## Download & Configuration
-Download the file [here](https://github.com/Artcas2/scratch-livestats/blob/main/live-stats.py).
+Download the file [here](https://raw.githubusercontent.com/Artcas2/scratch-livestats/main/live-stats.py).
 
 Configuration : 
 *You can get your session id from your browser's cookies. [More information](https://github.com/Artcas2/scratch-livestats/#get-your-session-id)*
