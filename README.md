@@ -21,7 +21,7 @@ project = session.connect_project(project_id)
 
 **You can also log in with username/password like this:**
 ```python
-session = scratch3.Session("your_username", "your_password") # replace your_username with your username and your_password with your password
+session = scratch3.login("your_username", "your_password") # replace your_username with your username and your_password with your password
 ```
 
 # Get your session id
